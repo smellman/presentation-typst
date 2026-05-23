@@ -13,10 +13,12 @@
 // 自己紹介
 #content-slide(title: "自己紹介")[
   - 松澤 太郎 (Taro Matsuzawa / \@smellman)
-  - OpenStreetMap Foundation Japan (OSMFJ) 理事
-  - OSGeo財団 日本支部(OSGeo.JP) 理事
+  - 一般社団法人OpenStreetMap Foundation Japan (OSMFJ) 理事
+  - 一般社団法人OSGeo 日本支部(OSGeo.JP) 理事
   - 日本UNIXユーザ会 副会長
+  - UNOpenGIS/7 lead enginner
   - 株式会社Geolonia GISエンジニア
+  - かつてもじら組という組織の代表だったこともある
 ]
 
 // セクション: これは何？
@@ -83,8 +85,8 @@
 
 // 技術スタック
 #content-slide(title: "技術スタック")[
-  - *MapLibre GL JS 5.24* — 3D ビルの fill-extrusion 描画
-  - *PMTiles 4* — 単一ファイルでベクトルタイル配信
+  - *MapLibre GL JS* — 3D ビルの fill-extrusion 描画
+  - *PMTiles* — 単一ファイルでベクトルタイル配信
   - 地図スタイル/タイル: tile.openstreetmap.jp の planet.pmtiles
   - *Web Audio API* — `AnalyserNode` で FFT 解析
   - *TypeScript + Vite* — ビルド
@@ -140,13 +142,6 @@
   - `Content-Type` / `Content-Length` / `Content-Range` / `Accept-Ranges` を返す
   - Docker / docker-compose で VPS に常駐させて運用
   - ネタアプリのために本気のインフラが組み上がっていく
-]
-
-// 元ネタ
-#content-slide(title: "元ネタ: Otherman Records")[
-  #align(center,
-    image("assets/images/oss-stupid-program-2025-otherman.png", height: 85%)
-  )
 ]
 
 // セクション: 開発遍歴
