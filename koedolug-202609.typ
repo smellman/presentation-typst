@@ -47,7 +47,6 @@
   - Link: https://github.com/smellman/osm-sound-demo-slint
   - Webブラウザでは出来なかったGamepadでの操作を実装しました。
     - Chrome/SafariではGamepad APIがあるのですが、Firefox使いなので却下。
-  - デモします。
 ]
 
 #section-slide("OpenStreetMap Sound Demo Navara")
@@ -58,7 +57,6 @@
     - Three.jsをベースにしています。
   - Navaraを使って、OpenStreetMap Sound Demo を実装しました。
   - Link: https://smellman.github.io/osm-sound-demo-navara/
-  - デモします。
 ]
 
 #content-slide(title: "雑感")[
